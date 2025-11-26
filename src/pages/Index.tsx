@@ -42,12 +42,7 @@ const Index = () => {
             <Button size="lg" className="bg-warm-accent hover:bg-warm-accent/90 text-cream font-inter font-medium text-lg px-8 py-6">
               View Menu
             </Button>
-            <Button 
-              size="lg" 
-              variant="default"
-              className="bg-cream text-coffee-dark hover:bg-cream/90 font-inter font-medium text-lg px-8 py-6"
-              onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=Augusta+Deglava+iela+69B,+Vidzemes+priekšpilsēta,+Rīga,+LV-1082', '_blank')}
-            >
+            <Button size="lg" variant="default" className="bg-cream text-coffee-dark hover:bg-cream/90 font-inter font-medium text-lg px-8 py-6" onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=Augusta+Deglava+iela+69B,+Vidzemes+priekšpilsēta,+Rīga,+LV-1082', '_blank')}>
               Visit Us
             </Button>
           </div>
@@ -62,11 +57,7 @@ const Index = () => {
               <h2 className="font-playfair text-5xl md:text-6xl font-bold text-coffee-dark mb-6">
                 Crafted with Passion
               </h2>
-              <p className="font-inter text-lg text-coffee-medium leading-relaxed mb-6">
-                At Brew Haven, we believe coffee is more than a beverage—it's an experience. 
-                Every bean is carefully sourced from sustainable farms, roasted in small batches, 
-                and brewed with precision.
-              </p>
+              <p className="font-inter text-lg text-coffee-medium leading-relaxed mb-6">At Mago Coffee, we believe coffee is more than a beverage—it's an experience. Every bean is carefully sourced from sustainable farms, roasted in small batches, and brewed with precision.</p>
               <p className="font-inter text-lg text-coffee-medium leading-relaxed">
                 Our baristas are artisans, dedicated to crafting the perfect cup while creating 
                 a warm, welcoming space where the community can gather, work, and connect.
@@ -203,11 +194,7 @@ const Index = () => {
                 </div>
                 
                 <div className="pt-4">
-                  <Button 
-                    className="w-full bg-warm-accent hover:bg-warm-accent/90 text-cream font-inter font-medium" 
-                    size="lg"
-                    onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=Augusta+Deglava+iela+69B,+Vidzemes+priekšpilsēta,+Rīga,+LV-1082', '_blank')}
-                  >
+                  <Button className="w-full bg-warm-accent hover:bg-warm-accent/90 text-cream font-inter font-medium" size="lg" onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=Augusta+Deglava+iela+69B,+Vidzemes+priekšpilsēta,+Rīga,+LV-1082', '_blank')}>
                     Get Directions
                   </Button>
                 </div>
