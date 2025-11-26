@@ -2,10 +2,9 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { MapPin, Clock, Phone, Mail } from "lucide-react";
 import heroImage from "@/assets/hero-coffee.jpg";
-import espressoImage from "@/assets/espresso.jpg";
-import cappuccinoImage from "@/assets/cappuccino.jpg";
-import coldBrewImage from "@/assets/cold-brew.jpg";
 import magoCoffeeImage from "@/assets/magoCoffee3.png";
+import magoCoffee2Image from "@/assets/magocoffee2.png";
+import magoCoffee1Image from "@/assets/magoCoffee.png";
 const Index = () => {
   const featuredDrinks = [{
     name: "Signature Espresso",
@@ -16,12 +15,12 @@ const Index = () => {
     name: "Velvet Cappuccino",
     description: "Silky microfoam meets expertly pulled espresso",
     price: "$4.50",
-    image: cappuccinoImage
+    image: magoCoffee2Image
   }, {
     name: "Cold Brew",
     description: "Smooth, refreshing, steeped for 24 hours",
     price: "$4.75",
-    image: coldBrewImage
+    image: magoCoffee1Image
   }];
   return <div className="min-h-screen">
       {/* Hero Section */}
