@@ -5,59 +5,44 @@ import heroImage from "@/assets/hero-coffee.jpg";
 import espressoImage from "@/assets/espresso.jpg";
 import cappuccinoImage from "@/assets/cappuccino.jpg";
 import coldBrewImage from "@/assets/cold-brew.jpg";
-
 const Index = () => {
-  const featuredDrinks = [
-    {
-      name: "Signature Espresso",
-      description: "Rich, bold, and perfectly extracted from our house blend",
-      price: "$3.50",
-      image: espressoImage,
-    },
-    {
-      name: "Velvet Cappuccino",
-      description: "Silky microfoam meets expertly pulled espresso",
-      price: "$4.50",
-      image: cappuccinoImage,
-    },
-    {
-      name: "Cold Brew",
-      description: "Smooth, refreshing, steeped for 24 hours",
-      price: "$4.75",
-      image: coldBrewImage,
-    },
-  ];
-
-  return (
-    <div className="min-h-screen">
+  const featuredDrinks = [{
+    name: "Signature Espresso",
+    description: "Rich, bold, and perfectly extracted from our house blend",
+    price: "$3.50",
+    image: espressoImage
+  }, {
+    name: "Velvet Cappuccino",
+    description: "Silky microfoam meets expertly pulled espresso",
+    price: "$4.50",
+    image: cappuccinoImage
+  }, {
+    name: "Cold Brew",
+    description: "Smooth, refreshing, steeped for 24 hours",
+    price: "$4.75",
+    image: coldBrewImage
+  }];
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        >
+        <div className="absolute inset-0 bg-cover bg-center" style={{
+        backgroundImage: `url(${heroImage})`
+      }}>
           <div className="absolute inset-0 bg-coffee-dark/60" />
         </div>
         
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-fade-in">
           <h1 className="font-playfair text-6xl md:text-7xl lg:text-8xl font-bold text-cream mb-6">
-            Brew Haven
+            Mago Coffee 
           </h1>
           <p className="font-inter text-xl md:text-2xl text-cream/90 mb-8 max-w-2xl mx-auto">
             Where Every Cup Tells a Story
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              className="bg-warm-accent hover:bg-warm-accent/90 text-cream font-inter font-medium text-lg px-8 py-6"
-            >
+            <Button size="lg" className="bg-warm-accent hover:bg-warm-accent/90 text-cream font-inter font-medium text-lg px-8 py-6">
               View Menu
             </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-2 border-cream text-cream hover:bg-cream hover:text-coffee-dark font-inter font-medium text-lg px-8 py-6"
-            >
+            <Button size="lg" variant="outline" className="border-2 border-cream text-cream hover:bg-cream hover:text-coffee-dark font-inter font-medium text-lg px-8 py-6">
               Visit Us
             </Button>
           </div>
@@ -117,18 +102,11 @@ const Index = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            {featuredDrinks.map((drink, index) => (
-              <Card 
-                key={drink.name}
-                className="overflow-hidden bg-card border-coffee-light/20 hover-scale animate-fade-in"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
+            {featuredDrinks.map((drink, index) => <Card key={drink.name} className="overflow-hidden bg-card border-coffee-light/20 hover-scale animate-fade-in" style={{
+            animationDelay: `${index * 100}ms`
+          }}>
                 <div className="aspect-square overflow-hidden">
-                  <img 
-                    src={drink.image} 
-                    alt={drink.name}
-                    className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
-                  />
+                  <img src={drink.image} alt={drink.name} className="w-full h-full object-cover transition-transform duration-500 hover:scale-110" />
                 </div>
                 <div className="p-6">
                   <div className="flex justify-between items-start mb-3">
@@ -143,8 +121,7 @@ const Index = () => {
                     {drink.description}
                   </p>
                 </div>
-              </Card>
-            ))}
+              </Card>)}
           </div>
         </div>
       </section>
@@ -221,10 +198,7 @@ const Index = () => {
                 </div>
                 
                 <div className="pt-4">
-                  <Button 
-                    className="w-full bg-warm-accent hover:bg-warm-accent/90 text-cream font-inter font-medium"
-                    size="lg"
-                  >
+                  <Button className="w-full bg-warm-accent hover:bg-warm-accent/90 text-cream font-inter font-medium" size="lg">
                     Get Directions
                   </Button>
                 </div>
@@ -246,8 +220,6 @@ const Index = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
