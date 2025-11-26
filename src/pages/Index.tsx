@@ -5,12 +5,13 @@ import heroImage from "@/assets/hero-coffee.jpg";
 import espressoImage from "@/assets/espresso.jpg";
 import cappuccinoImage from "@/assets/cappuccino.jpg";
 import coldBrewImage from "@/assets/cold-brew.jpg";
+import magoCoffeeImage from "@/assets/magoCoffee3.png";
 const Index = () => {
   const featuredDrinks = [{
     name: "Signature Espresso",
     description: "Rich, bold, and perfectly extracted from our house blend",
     price: "$3.50",
-    image: espressoImage
+    image: magoCoffeeImage
   }, {
     name: "Velvet Cappuccino",
     description: "Silky microfoam meets expertly pulled espresso",
