@@ -33,7 +33,7 @@ const Index = () => {
         
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto animate-fade-in">
           <h1 className="font-playfair text-6xl md:text-7xl lg:text-8xl font-bold text-cream mb-6">
-            Mago Coffee 
+            MagoCoffee 
           </h1>
           <p className="font-inter text-xl md:text-2xl text-cream/90 mb-8 max-w-2xl mx-auto">
             Where Every Cup Tells a Story
@@ -148,9 +148,9 @@ const Index = () => {
                       Location
                     </h3>
                     <p className="font-inter text-coffee-medium">
-                      123 Artisan Street<br />
-                      Downtown District<br />
-                      Coffee City, CC 12345
+                      Augusta Deglava iela 69B<br />
+                      Vidzemes priekšpilsēta<br />
+                      Rīga, LV-1082
                     </p>
                   </div>
                 </div>
@@ -180,7 +180,7 @@ const Index = () => {
                       Phone
                     </h3>
                     <p className="font-inter text-coffee-medium">
-                      (555) 123-4567
+                      +371 25701889
                     </p>
                   </div>
                 </div>
@@ -192,7 +192,7 @@ const Index = () => {
                       Email
                     </h3>
                     <p className="font-inter text-coffee-medium">
-                      hello@brewhaven.com
+                      mago@coffee.com
                     </p>
                   </div>
                 </div>
@@ -211,12 +211,12 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-coffee-dark text-cream py-12 px-4">
         <div className="max-w-6xl mx-auto text-center">
-          <h3 className="font-playfair text-3xl font-bold mb-4">Brew Haven</h3>
+          <h3 className="font-playfair text-3xl font-bold mb-4">MagoCoffee</h3>
           <p className="font-inter text-cream/80 mb-6">
             Crafting exceptional coffee experiences since 2018
           </p>
           <p className="font-inter text-sm text-cream/60">
-            © 2025 Brew Haven. All rights reserved.
+            © 2025 MagoCoffee. All rights reserved.
           </p>
         </div>
       </footer>
