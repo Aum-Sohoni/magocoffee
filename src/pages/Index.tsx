@@ -42,7 +42,12 @@ const Index = () => {
             <Button size="lg" className="bg-warm-accent hover:bg-warm-accent/90 text-cream font-inter font-medium text-lg px-8 py-6">
               View Menu
             </Button>
-            <Button size="lg" variant="outline" className="border-2 border-cream text-cream hover:bg-cream hover:text-coffee-dark font-inter font-medium text-lg px-8 py-6">
+            <Button 
+              size="lg" 
+              variant="default"
+              className="bg-cream text-coffee-dark hover:bg-cream/90 font-inter font-medium text-lg px-8 py-6"
+              onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=Augusta+Deglava+iela+69B,+Vidzemes+priekšpilsēta,+Rīga,+LV-1082', '_blank')}
+            >
               Visit Us
             </Button>
           </div>
@@ -198,7 +203,11 @@ const Index = () => {
                 </div>
                 
                 <div className="pt-4">
-                  <Button className="w-full bg-warm-accent hover:bg-warm-accent/90 text-cream font-inter font-medium" size="lg">
+                  <Button 
+                    className="w-full bg-warm-accent hover:bg-warm-accent/90 text-cream font-inter font-medium" 
+                    size="lg"
+                    onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=Augusta+Deglava+iela+69B,+Vidzemes+priekšpilsēta,+Rīga,+LV-1082', '_blank')}
+                  >
                     Get Directions
                   </Button>
                 </div>
