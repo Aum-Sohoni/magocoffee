@@ -13,7 +13,16 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'playfair': ['Playfair Display', 'serif'],
+        'inter': ['Inter', 'sans-serif'],
+      },
       colors: {
+        'coffee-dark': 'hsl(var(--coffee-dark))',
+        'coffee-medium': 'hsl(var(--coffee-medium))',
+        'coffee-light': 'hsl(var(--coffee-light))',
+        'cream': 'hsl(var(--cream))',
+        'warm-accent': 'hsl(var(--warm-accent))',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
