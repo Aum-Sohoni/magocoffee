@@ -9,7 +9,7 @@ const Index = () => {
   const featuredDrinks = [{
     name: "Signature Espresso",
     description: "Rich, bold, and perfectly extracted from our house blend",
-    price: "$3.50",
+    price: "€2.50",
     image: magoCoffeeImage
   }, {
     name: "Velvet Cappuccino",
