@@ -14,12 +14,12 @@ const Index = () => {
   }, {
     name: "Velvet Cappuccino",
     description: "Silky microfoam meets expertly pulled espresso",
-    price: "$4.50",
+    price: "€3.50",
     image: magoCoffee2Image
   }, {
     name: "Cold Brew",
     description: "Smooth, refreshing, steeped for 24 hours",
-    price: "$4.75",
+    price: "€3.75",
     image: magoCoffee1Image
   }];
   return <div className="min-h-screen">
