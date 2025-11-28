@@ -3,9 +3,11 @@ import { Card } from "@/components/ui/card";
 import { MapPin, Clock, Phone, Mail, Menu, X, Calendar, Instagram, Facebook } from "lucide-react";
 import { useState } from "react";
 import heroImage from "@/assets/hero-mago-coffee.jpg";
-import magoCoffeeImage from "@/assets/magoCoffee3.png";
+import magoCoffee3Image from "@/assets/magoCoffee3.png";
 import magoCoffee2Image from "@/assets/magocoffee2.png";
 import magoCoffee1Image from "@/assets/magoCoffee.png";
+import magoCoffee4Image from "@/assets/magoCoffee4.jpg";
+import magoCoffee5Image from "@/assets/magoCoffee5.jpg";
 
 const Index = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -349,7 +351,7 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
-            {[magoCoffee3, magoCoffee2Image, magoCoffee1Image, magoCoffeeImage, magoCoffee4, magoCoffee5].map((img, index) => (
+            {[magoCoffee3Image, magoCoffee2Image, magoCoffee1Image, magoCoffee4Image, magoCoffee5Image].map((img, index) => (
               <div
                 key={index}
                 className="aspect-square overflow-hidden rounded-lg border-2 sm:border-4 border-mago-black hover:border-mago-orange transition-all hover:scale-105 cursor-pointer"
