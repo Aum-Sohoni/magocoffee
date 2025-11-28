@@ -349,7 +349,7 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
-            {[magoCoffeeImage, magoCoffee2Image, magoCoffee1Image, magoCoffeeImage, magoCoffee2Image, magoCoffee1Image].map((img, index) => (
+            {[magoCoffee3, magoCoffee2Image, magoCoffee1Image, magoCoffeeImage, magoCoffee4, magoCoffee5].map((img, index) => (
               <div
                 key={index}
                 className="aspect-square overflow-hidden rounded-lg border-2 sm:border-4 border-mago-black hover:border-mago-orange transition-all hover:scale-105 cursor-pointer"
