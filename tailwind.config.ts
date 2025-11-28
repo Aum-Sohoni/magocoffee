@@ -14,12 +14,12 @@ export default {
   	},
   	extend: {
   		fontFamily: {
-  			playfair: [
-  				'Playfair Display',
-  				'serif'
+  			montserrat: [
+  				'Montserrat',
+  				'sans-serif'
   			],
-  			inter: [
-  				'Inter',
+  			'open-sans': [
+  				'Open Sans',
   				'sans-serif'
   			],
   			sans: [
@@ -56,11 +56,11 @@ export default {
   			]
   		},
   		colors: {
-  			'coffee-dark': 'hsl(var(--coffee-dark))',
-  			'coffee-medium': 'hsl(var(--coffee-medium))',
-  			'coffee-light': 'hsl(var(--coffee-light))',
-  			cream: 'hsl(var(--cream))',
-  			'warm-accent': 'hsl(var(--warm-accent))',
+  			'mago-orange': 'hsl(var(--mago-orange))',
+  			'mago-black': 'hsl(var(--mago-black))',
+  			'mago-white': 'hsl(var(--mago-white))',
+  			'mago-gray': 'hsl(var(--mago-gray))',
+  			'mago-orange-light': 'hsl(var(--mago-orange-light))',
   			border: 'hsl(var(--border))',
   			input: 'hsl(var(--input))',
   			ring: 'hsl(var(--ring))',
