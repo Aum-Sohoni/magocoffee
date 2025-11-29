@@ -6,11 +6,9 @@ import heroImage from "@/assets/hero-mago-coffee.jpg";
 import magoCoffee3Image from "@/assets/magoCoffee3.png";
 import magoCoffee2Image from "@/assets/magocoffee2.png";
 import magoCoffee1Image from "@/assets/magoCoffee.png";
-import magoCoffee4Image from "@/assets/magoCoffee4.jpg";
-import magoCoffee5Image from "@/assets/magoCoffee5.jpg";
-import gallery1Image from "@/assets/gallery-1.jpg";
-import galleryLogoImage from "@/assets/gallery-logo.jpg";
-import gallery2Image from "@/assets/gallery-2.jpg";
+import galleryInteriorImage from "@/assets/gallery-interior.jpg";
+import galleryLatteArtImage from "@/assets/gallery-latte-art.jpg";
+import galleryBeansImage from "@/assets/gallery-beans.jpg";
 
 const Index = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -354,7 +352,7 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
-            {[magoCoffee3Image, magoCoffee2Image, magoCoffee1Image, magoCoffee4Image, magoCoffee5Image, gallery1Image, galleryLogoImage, gallery2Image].map((img, index) => (
+            {[magoCoffee3Image, magoCoffee2Image, magoCoffee1Image, galleryInteriorImage, galleryLatteArtImage, galleryBeansImage].map((img, index) => (
               <div
                 key={index}
                 className="aspect-square overflow-hidden rounded-lg border-2 sm:border-4 border-mago-black hover:border-mago-orange transition-all hover:scale-105 cursor-pointer"
